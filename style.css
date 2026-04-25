@@ -20,7 +20,7 @@ body{
   margin:0;
   font-family:'Tajawal', Arial, sans-serif;
   text-align:center;
-  min-height:150vh;
+  min-height:100vh;
   display:flex;
   flex-direction:column;
   color:rgb(255, 255, 255);
@@ -57,7 +57,7 @@ body{
 }
 
 .container{
-  margin-top:60px;
+ 
   flex:1;
   animation:fade 1s;
 }
@@ -252,7 +252,7 @@ body{
   }
 }
 /* ── FOOTER ── */
-.footer{margin-top:60px;background:rgba(10,4,0,.95);padding:28px 16px;text-align:center;border-top:1px solid rgba(201,150,42,.15);}
+.footer{margin-top:auto;background:rgba(10,4,0,.95);padding:28px 16px;text-align:center;border-top:1px solid rgba(201,150,42,.15);}
 .footer-content h3{color:#C9962A;font-size:1.2rem;margin-bottom:10px;font-weight:800;}
 .footer-note{font-size:13px;color:rgba(245,230,200,.45);margin-bottom:10px;font-style:italic;}
 .footer-content p{margin:6px 0;font-size:13px;color:rgba(245,230,200,.6);line-height:1.6;}
